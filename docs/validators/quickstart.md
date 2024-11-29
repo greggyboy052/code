@@ -164,7 +164,7 @@ python3 neurons/validator.py
     --wallet.hotkey <your hotkey> # Must be created using the bittensor-cli
     --logging.debug # Run in debug mode, alternatively --logging.trace for trace mode
     --axon.port # VERY IMPORTANT: set the port to be one of the open TCP ports on your machine
-    --neuron.model_url # OPTIONAL, if you are hosting the model somewhere else other then port 8028
+    --neuron.model_url # OPTIONAL, if you are hosting the model somewhere else other than port 8028
     --neuron.vllm_api_key # OPTIONAL, only use if your vllm instance has an api key requirement
     --wandb.on True # default is true but you can disable
 ```
